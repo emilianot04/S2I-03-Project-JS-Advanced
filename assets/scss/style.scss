@@ -48,3 +48,9 @@ th {
 #error {
   padding: 15px;
 }
+
+@media only screen and (max-width: 767px) {
+  #prog {
+    display: none;
+  }
+}

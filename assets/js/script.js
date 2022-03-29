@@ -54,8 +54,8 @@ form.onsubmit = function (e) {
                 <tr>
                 <td>${i}</td>
                 <td>${nome}</td>
-                <td>${arrotondato}</td>
-                <td><div class="progress">
+                <td >${arrotondato}</td>
+                <td id="prog"><div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: ${
                   arrotondato * 10
                 }%; background-color:${colore};font-size:18px; " aria-valuenow="${
