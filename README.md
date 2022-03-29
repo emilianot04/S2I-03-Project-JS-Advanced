@@ -1,4 +1,4 @@
-# S2I-03-Project-JS
+# S2I-03-Project-JS-Advanced
 
 Progetto JavaScript Advanced S2I
 
