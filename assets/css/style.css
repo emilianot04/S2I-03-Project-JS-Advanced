@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Metal Mania", cursive;
+    touch-action: manipulation;
+}
+
+body {
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: scroll;
+}
+
+.page {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header,
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.progress {
+    height: 25px!important;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: auto;
+    width: 100%;
+    background: #ccc;
+    opacity: 0.9;
+    padding: 50px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}

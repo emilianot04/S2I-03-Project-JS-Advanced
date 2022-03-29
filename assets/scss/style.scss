@@ -1,0 +1,98 @@
+/* $colorBlack: #000000;
+$colorWhite: #ffffff;
+$colorGrey: #46473e;
+$font: "Metal Mania", cursive;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font;
+  touch-action: manipulation;
+}
+body {
+  background-image: url("../img/background.jpg");
+  background-color: $colorBlack;
+  padding: 1%;
+  width: 98%;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+#number {
+  color: $colorBlack;
+  font-size: 12rem;
+  width: 150px;
+  text-align: center;
+}
+button {
+  width: 9rem;
+  height: 9rem;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  font-size: 6rem;
+  border: 10px solid $colorGrey;
+  color: $colorBlack;
+  background-color: $colorWhite;
+}
+#reset {
+  width: 20rem;
+  height: 9rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+.container {
+  color: $colorBlack;
+  background-color: rgba(256, 256, 256, 0.7);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2%;
+  border: 6px solid $colorGrey;
+}
+.active {
+  color: $colorWhite;
+  background-color: $colorBlack;
+}
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 98%;
+    padding: 1%;
+  }
+  #reset {
+    width: 10rem;
+    height: 4rem;
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  button {
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 3rem;
+  }
+} */
+header,
+.row {
+  display: flex; /* aligns all child elements (flex items) in a row */
+}
+
+.col {
+  flex: 1; /* distributes space on the line equally among items */
+}
